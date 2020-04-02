@@ -1,0 +1,16 @@
+insert into pets(name, species, weight)
+values ('Lola', 'dog', 10.2),
+       ('Sam Hoover', 'cat', 15),
+       ('Lucy', 'dog', 40),
+       ('Truffle', 'guinea pig', 3),
+       ('Lucille', 'seal', 20),
+       ('Shimmer', 'gecko', .4);
+
+insert into food(species, diet)
+values ('cat', 'fish'),
+       ('dog', 'meat'),
+       ('dog', 'carrots'),
+       ('guinea pig', 'hay'),
+       ('gecko', 'fruit'),
+       ('seals', 'fish'),
+       ('rabbits', 'hay');

@@ -1,0 +1,13 @@
+SELECT * FROM pets;
+
+SELECT name, weight FROM pets;
+
+SELECT name, diet FROM pets, food WHERE pets.species=food.species;
+
+SELECT name, diet FROM pets, food WHERE pets.species=food.species AND food.diet='fish';
+
+SELECT max(weight) FROM pets;
+
+UPDATE pets SET name = 'Flipper' WHERE name = 'Lucille';
+
+DELETE FROM pets WHERE name = 'Flipper';

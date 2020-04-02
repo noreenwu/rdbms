@@ -1,0 +1,13 @@
+create table pets (
+   id serial primary key,
+   name varchar(20) not null,
+   species varchar(20) not null,
+   weight real
+);
+
+
+
+create table food (
+   species varchar(20) not null,
+   diet varchar(20) not null
+);
