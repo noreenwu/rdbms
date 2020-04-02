@@ -6,6 +6,8 @@ SELECT name, diet FROM pets, food WHERE pets.species=food.species;
 
 SELECT name, diet FROM pets, food WHERE pets.species=food.species AND food.diet='fish';
 
+SELECT name, diet FROM pets INNER JOIN food ON pets.species=food.species WHERE food.diet='fish';
+
 SELECT max(weight) FROM pets;
 
 UPDATE pets SET name = 'Flipper' WHERE name = 'Lucille';
