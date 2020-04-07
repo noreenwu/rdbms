@@ -12,5 +12,5 @@ values ('cat', 'fish'),
        ('dog', 'carrots'),
        ('guinea pig', 'hay'),
        ('gecko', 'fruit'),
-       ('seals', 'fish'),
+       ('seal', 'fish'),
        ('rabbits', 'hay');
